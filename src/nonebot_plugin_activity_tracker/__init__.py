@@ -4,7 +4,6 @@ from nonebot.plugin import PluginMetadata, inherit_supported_adapters
 require("nonebot_plugin_orm")
 require("nonebot_plugin_uninfo")
 require("nonebot_plugin_alconna")
-require("nonebot_plugin_localstore")
 
 from nonebot_plugin_uninfo import Uninfo
 
