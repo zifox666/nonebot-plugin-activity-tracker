@@ -1,6 +1,6 @@
 [project]
 name = "nonebot-plugin-activity-tracker"
-version = "0.1.0"
+version = "0.1.1"
 description = "基于nonebot的会话活跃检测插件，只对活跃会话推送信息"
 readme = "README.md"
 authors = [{ name = "zifox666", email = "zifox666@gmail.com" }]
@@ -125,7 +125,7 @@ requires = ["uv_build>=0.8.0,<0.9.0"]
 build-backend = "uv_build"
 
 [tool.bumpversion]
-current_version = "0.1.0"
+current_version = "0.1.1"
 commit = true
 message = ":bookmark: bump vesion from {current_version} to {new_version}"
 tag = true
